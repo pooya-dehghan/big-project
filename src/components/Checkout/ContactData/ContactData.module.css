@@ -1,0 +1,20 @@
+.area{
+    margin: 40px auto;
+    width:10%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: black 1px ;
+    padding: 40px 80px;
+    border:0.2px rgb(36, 30, 30) solid;
+}
+.container{
+    background-color: rgb(189, 137, 78);
+    padding:1rem;
+    margin-top: 1rem;
+}
+@media ( min-width : 600px) {
+    .area{
+        width:500px
+    }
+}
